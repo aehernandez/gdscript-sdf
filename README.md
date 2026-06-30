@@ -38,6 +38,13 @@ This tool generates images proceduraly by evaluating Signed Distance Fields (SDF
 2. **Bake to PNG**: Use the Inspector button **"Save PNG & Export"** on the `SdfSpriteGenerator` node to write the result as a PNG texture.
 3. **Use Static Textures**: The tool automatically re-imports the PNG and can automatically generate a sibling `Sprite2D` node with the texture assigned. Use these baked assets in your active game scene.
 
+## Quick Start & Demo Scene
+
+The root of this repository is a self-contained Godot project. To try it out:
+1. Clone this repository to your local machine.
+2. Open the Godot Project Manager, click **Import**, and select the root folder of this repository.
+3. Once loaded in Godot, open and run `scenes/demo.tscn` to see the `SdfSpriteGenerator` composition in action (a procedurally composed robot sprite).
+
 ---
 
 ## Installation
