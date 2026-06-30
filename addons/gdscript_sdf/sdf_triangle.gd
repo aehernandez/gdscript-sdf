@@ -1,6 +1,6 @@
 @tool
 class_name SdfTriangle
-extends "res://addons/gdscript_sdf/sdf_shape.gd"
+extends SdfShape
 
 @export var point_a: Vector2 = Vector2(0.0, -10.0):
 	set(val):

@@ -1,6 +1,6 @@
 @tool
 class_name SdfBox
-extends "res://addons/gdscript_sdf/sdf_shape.gd"
+extends SdfShape
 
 @export var size: Vector2 = Vector2(20.0, 20.0):
 	set(val):

@@ -1,6 +1,6 @@
 @tool
 class_name SdfCircle
-extends "res://addons/gdscript_sdf/sdf_shape.gd"
+extends SdfShape
 
 @export var radius: float = 10.0:
 	set(val):

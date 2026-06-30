@@ -1,6 +1,6 @@
 @tool
 class_name SdfLine
-extends "res://addons/gdscript_sdf/sdf_shape.gd"
+extends SdfShape
 
 @export var length: float = 20.0:
 	set(val):

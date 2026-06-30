@@ -1,6 +1,6 @@
 @tool
 class_name SdfCapsule
-extends "res://addons/gdscript_sdf/sdf_shape.gd"
+extends SdfShape
 
 @export_range(0, 1000, 0.1) var height: float = 30.0:
 	set(val):
