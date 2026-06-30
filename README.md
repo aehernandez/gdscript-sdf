@@ -43,7 +43,7 @@ This tool generates images proceduraly by evaluating Signed Distance Fields (SDF
 The root of this repository is a self-contained Godot project. To try it out:
 1. Clone this repository to your local machine.
 2. Open the Godot Project Manager, click **Import**, and select the root folder of this repository.
-3. Once loaded in Godot, open and run `scenes/demo.tscn` to see the `SdfSpriteGenerator` composition in action (a procedurally composed robot sprite).
+3. Once loaded in Godot, open and run `addons/gdscript_sdf/demo/demo.tscn` to see the `SdfSpriteGenerator` composition in action (a procedurally composed robot sprite).
 
 ---
 

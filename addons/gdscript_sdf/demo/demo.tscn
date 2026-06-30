@@ -19,7 +19,7 @@ outline_width = 1.5
 outline_color = Color(0, 0, 0, 1)
 glow_width = 4.0
 glow_color = Color(0.1, 0.7, 1, 0.4)
-export_folder = "res://sprites/sdf_generated/"
+export_folder = "res://addons/gdscript_sdf/demo/exports/"
 export_prefix = "sdf_bot"
 
 [node name="Body" type="Node2D" parent="SdfSpriteGenerator"]
