@@ -2,7 +2,6 @@
 class_name SdfSpriteGenerator
 extends Sprite2D
 
-const SdfShape = preload("res://addons/gdscript_sdf/sdf_shape.gd")
 
 # --- PROPERTIES ---
 @export_group("Canvas Settings")
